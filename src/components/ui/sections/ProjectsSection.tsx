@@ -3,14 +3,14 @@
  */
 import { motion } from 'framer-motion';
 import { Cpu, Smartphone, Laptop, Github as GithubIcon, ExternalLink, Apple, Play } from 'lucide-react';
-import type { ElementType } from 'react';
+import type { LucideIcon } from 'lucide-react';
 
 interface Project {
   title: string;
   type: string;
   description: string;
   accent: string;
-  icon: ElementType;
+  icon: LucideIcon;
   links: { github?: string; live?: string; appStore?: string; playStore?: string };
 }
 

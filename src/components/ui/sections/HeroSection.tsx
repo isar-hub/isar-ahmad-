@@ -6,7 +6,6 @@
 import { motion } from 'framer-motion';
 import { Github as GithubIcon, Linkedin, ArrowDown } from 'lucide-react';
 
-const isarImg = '/src/assets/hero.png';
 
 export function HeroSection(): React.ReactElement {
   return (

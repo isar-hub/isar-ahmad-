@@ -73,7 +73,7 @@ function OrbitalRing({
 function Nucleus({ isActive }: { isActive: boolean }): React.ReactElement {
   const ref = useRef<THREE.Mesh>(null!);
 
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (!ref.current) return;
     ref.current.rotation.x += delta * 0.5;
     ref.current.rotation.y += delta * 0.7;

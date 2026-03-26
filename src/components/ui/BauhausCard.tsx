@@ -2,21 +2,22 @@
  * BauhausCard.tsx
  * Reusable Bauhaus-styled card. Extracted from App.tsx.
  */
-import type { ElementType } from 'react';
+
 import { motion } from 'framer-motion';
 import {
   Github as GithubIcon,
   ExternalLink,
-  Apple,
   Play,
+  Apple,
 } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 interface BauhausCardProps {
   title: string;
   subtitle?: string;
   content: string;
   color?: 'white' | 'red' | 'blue' | 'yellow';
-  icon?: ElementType;
+  icon?: LucideIcon;
   geometricShape?: 'circle' | 'square' | 'triangle';
   className?: string;
   links?: {
