@@ -70,7 +70,7 @@ export function Nav(): React.ReactElement {
           border: '1px solid rgba(255,255,255,0.2)',
           backdropFilter: 'blur(8px)',
         }}
-        onClick={() => window.open('https://drive.google.com/file/d/1puHYdGloy51ki1Dmzk9sMSo8bVqIEszX/view?usp=sharing', '_blank', 'noopener,noreferrer')}
+        onClick={() => window.open('https://drive.google.com/drive/folders/1lEp1kh1hv68sh5woHtPgJN8HMkQxOPI9', '_blank', 'noopener,noreferrer')}
       >
         Resume
       </button>
